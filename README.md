@@ -27,11 +27,11 @@ $ npm install
 
 3. Crea un archivo .env en la raíz del proyecto y configura las siguientes variables de entorno:
 
-JWT_SECRET='sahaskKASJAH521A2S-/*ASJAT6543'
-DB_USER='postgres'
-DB_HOST='localhost'
-DB_NAME='task'
-DB_PASSWORD='test246'
+- JWT_SECRET='sahaskKASJAH521A2S-/*ASJAT6543'
+- DB_USER='postgres'
+- DB_HOST='localhost'
+- DB_NAME='task'
+- DB_PASSWORD='test246'
 
 Asegúrate de que tu base de datos PostgreSQL esté configurada en tu entorno local.
 

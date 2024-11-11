@@ -15,7 +15,7 @@ export class AuthController {
   
   @UseGuards(LocalAuthGuard)
   @Post('login')
-  @ApiOperation({ summary: 'Iniciar sesión', description:loginDescription })
+  @ApiOperation({ summary: 'Inicia sesión y obtiene un token JWT', description:loginDescription })
   @ApiResponse(responsesSucces.loginUserSuccess)
   @ApiResponse(responsesError.loginUnauthorized)
   async login(@Request() req, @Body() loginDto: LoginDto) {
